@@ -1,0 +1,28 @@
+package day37_Constructors;
+
+public class Student {
+    String name;
+    int age;
+    char gender;
+   String university;
+
+    //constructor with parameters is created.
+    public Student(String name, int age, char gender, String university){
+        this.name=name;
+        this.age=age;
+        this.gender=gender;
+        this.university=university;
+    }
+
+    public void setInfo(String name, int age, char gender, String university){
+         this.name=name;
+         this.age=age;
+         this.gender=gender;
+         this.university=university;
+    }
+
+    public String toString(){
+        return "Name: "+name+" Age: "+age+" Gender: "+gender+" University: "+university;
+    }
+
+}
