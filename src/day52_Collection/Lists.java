@@ -60,6 +60,8 @@ public class Lists {
         names.push("Phu"); //push addes the item to the list.
         System.out.println(names);
 
+        System.out.println("names.peek() = " + names.peek());
+
 
 
 

@@ -5,12 +5,7 @@ public class Frequency {
        /*
        How many times JAva occured in this sentences.
         */
-
-
         String str="Java is fun, Java is cool";
-
-        int i=0;
-
         int count=0;
 
         while(str.contains("Java")){

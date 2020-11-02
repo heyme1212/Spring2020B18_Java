@@ -18,15 +18,5 @@ public class Palindrome {
         System.out.println(palindrome);
 
 
-
-
-
-
-
-
-
-
-
-
     }
 }
